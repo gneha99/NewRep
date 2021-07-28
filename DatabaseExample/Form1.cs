@@ -128,5 +128,10 @@ namespace DatabaseExample
             MysqlexampleDbEx my = new MysqlexampleDbEx();
             my.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("fxdf");
+        }
     }
 }
